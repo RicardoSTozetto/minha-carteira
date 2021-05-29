@@ -1,9 +1,11 @@
 import React from 'react'
 
 
+
 import ContentHeader from '../../components/ContentHeader'
 import SelectInput from '../../components/SelectInput'
-import {Container} from './style'
+import HistoryFinanceCard from '../../components/HistoryFinanceCard'
+import {Container, Content} from './style'
 
 const List: React.FC = () => {
 
@@ -18,6 +20,79 @@ const List: React.FC = () => {
              <ContentHeader title="Entradas" lineColor="#fff">
                 <SelectInput options={options}/>
             </ContentHeader>
+
+            <Content>
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#E44C4E"
+                    title="Conta de luz"
+                    subtitle="29/05/2021"
+                    amount="R$ 20,00"                
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#E44C4E"
+                    title="Conta de luz"
+                    subtitle="29/05/2021"
+                    amount="R$ 20,00"                
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#E44C4E"
+                    title="Conta de luz"
+                    subtitle="29/05/2021"
+                    amount="R$ 20,00"                
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#E44C4E"
+                    title="Conta de luz"
+                    subtitle="29/05/2021"
+                    amount="R$ 20,00"                
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#E44C4E"
+                    title="Conta de luz"
+                    subtitle="29/05/2021"
+                    amount="R$ 20,00"                
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#E44C4E"
+                    title="Conta de luz"
+                    subtitle="29/05/2021"
+                    amount="R$ 20,00"                
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#E44C4E"
+                    title="Conta de luz"
+                    subtitle="29/05/2021"
+                    amount="R$ 20,00"                
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#E44C4E"
+                    title="Conta de luz"
+                    subtitle="29/05/2021"
+                    amount="R$ 20,00"                
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#E44C4E"
+                    title="Conta de luz"
+                    subtitle="29/05/2021"
+                    amount="R$ 20,00"                
+                />
+                <HistoryFinanceCard
+                    cardColor="#313862"
+                    tagColor="#E44C4E"
+                    title="Conta de luz"
+                    subtitle="29/05/2021"
+                    amount="R$ 20,00"                
+                />
+            </Content>
         </Container>
     );
 }
