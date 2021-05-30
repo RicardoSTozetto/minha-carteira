@@ -4,7 +4,7 @@ import Toggle from '../Toggle'
 import emojis from '../../utils/emojis';
 
 import {Container, Profile, Welcome, UserName} from './styles';
-import { ToggleLabel } from '../Toggle/styles';
+//import { ToggleLabel } from '../Toggle/styles';
 
 const MainHeader: React.FC = () => {
 
